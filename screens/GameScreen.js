@@ -72,7 +72,7 @@ function GameScreen({ pickedNumber, onGameOver, onGuess, guesses }) {
             <Title>My Hypothesis</Title>
             <NumberContainer>{currentGuess}</NumberContainer>
             <View style={styles.highOrLowContainer}>
-                <Text style={styles.higherOrLowerText}>WAIT DON'T TELL ME.</Text>
+                <Text style={styles.higherOrLowerText}>WAIT...</Text>
                 <Text style={styles.higherOrLowerText}>Is it Higher or Lower?</Text>
                 <View style={styles.highOrLowButtonContainer}>
                     <View style={styles.buttonContainer}>
