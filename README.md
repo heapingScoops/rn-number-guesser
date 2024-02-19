@@ -9,9 +9,9 @@ First project in React Native with Expo. Pick a secret number and see if the rob
 2. Clone the repo with `git clone [url]`
 2. `cd` into the project directory
 3. Run `npm install` to install dependencies
-4. Run `npm start`
-5. Scan the resulting QR code with your mobile device, which will open the app through Expo Go
-    * Note: Local machine and mobile device must connected to the same network (public networks are fussy)
+4. Run `npm start` to start server
+5. Scan the resulting QR code with your mobile device's camera; app will open through Expo Go
+    * Note: Local machine and mobile device must be connected to the same network (public networks are fussy)
 
 ## Technology Stack
 * Native framework: React Native / Expo
